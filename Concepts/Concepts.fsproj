@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Syntax\Basics.fs" />
+    <Compile Include="Folds.fs" />
+    <Compile Include="Library.fs" />
+	<Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
