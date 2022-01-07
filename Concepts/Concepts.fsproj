@@ -5,6 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Syntax\Class.fs" />
+    <Compile Include="Syntax\Struct.fs" />
+    <Compile Include="Syntax\Exceptions.fs" />
+    <Compile Include="Syntax\Generics.fs" />
+    <Compile Include="Syntax\Map.fs" />
+    <Compile Include="Syntax\Sequence.fs" />
+    <Compile Include="Syntax\Records.fs" />
+    <Compile Include="Syntax\Tuple.fs" />
+    <Compile Include="Syntax\Options.fs" />
+    <Compile Include="Syntax\Enum.fs" />
+    <Compile Include="Syntax\List.fs" />
+    <Compile Include="Syntax\Conditionals.fs" />
+    <Compile Include="Syntax\Loop.fs" />
+    <Compile Include="Syntax\Strings.fs" />
+    <Compile Include="Syntax\DataTypes.fs" />
+    <Compile Include="Syntax\Formatting.fs" />
     <Compile Include="Syntax\Basics.fs" />
     <Compile Include="Folds.fs" />
     <Compile Include="Library.fs" />
