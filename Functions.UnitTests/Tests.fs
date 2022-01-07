@@ -34,6 +34,11 @@ module Tests =
 
         Assert.Equal(expected, actual)
 
-    //[<Fact>]
-    //let ``Nth term of AP`` () =
-    //    let 
+    [<Theory>]
+    [<InlineData(0, 1)>]
+    [<InlineData(3, 6)>]
+    [<InlineData(5, 120)>]
+    let ``Factorial`` n expected =
+        
+        let actual = Factorial.factorial' n
+        Assert.Equal(expected, actual)
