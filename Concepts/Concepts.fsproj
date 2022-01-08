@@ -22,8 +22,8 @@
     <Compile Include="Syntax\DataTypes.fs" />
     <Compile Include="Syntax\Formatting.fs" />
     <Compile Include="Syntax\Basics.fs" />
+    <Compile Include="IO\ReadFromFile.fs" />
     <Compile Include="Folds.fs" />
-    <Compile Include="Library.fs" />
 	<Compile Include="Program.fs" />
   </ItemGroup>
 
