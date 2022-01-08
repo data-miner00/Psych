@@ -2,7 +2,7 @@ namespace Psych.Functions.UnitTests
 
 module Tests =
 
-    open System
+    open FSharp.Reflection
     open Xunit
     open Psych.Functions.Common
 
@@ -38,7 +38,24 @@ module Tests =
     [<InlineData(0, 1)>]
     [<InlineData(3, 6)>]
     [<InlineData(5, 120)>]
-    let ``Factorial`` n expected =
+    let ``Factorial test`` n expected =
         
         let actual = Factorial.factorial' n
+        Assert.Equal(expected, actual)
+
+    type TestData() =
+        static member FactorialTestData =
+            [ (0, 1)
+              (1, 1)
+              (2, 3)
+              (3, 6)
+              (4, 24)
+              (5, 120)
+            ] |> Seq.map FSharpValue.GetTupleFields
+
+    [<Theory>]
+    [<MemberData("FactorialTestData", MemberType=typeof<TestData>)>]
+    let ``Factorial 2`` n expected =
+        
+        let actual = Factorial.factorial'' n
         Assert.Equal(expected, actual)
