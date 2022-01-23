@@ -3,7 +3,7 @@
 open System
 
 type User(firstName:string, lastName:string, age:int, money:float, location:string,
-          email:string, password:string) =
+          email:string, password:string, lastLogin: DateTime) =
             member this.FirstName = firstName
             member this.LastName = lastName
             member this.Age = age
@@ -11,6 +11,7 @@ type User(firstName:string, lastName:string, age:int, money:float, location:stri
             member this.Location = location
             member this.Email = email
             member this.Password = password
+            member this.LastLogin = lastLogin
 
 type Sex =
     | Unspecified = 0
