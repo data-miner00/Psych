@@ -19,3 +19,8 @@ A repository for me to document F# and sample codes as a part of my learning.
 
 - [Match Expression](https://fsharpforfunandprofit.com/posts/match-expression/)
 - [Recursive Fibonacci with F#](https://pvlerick.github.io/2009/07/recursive-fibonacci-with-f)
+
+## Insightful discussions
+
+- [In F# how do you pass a collection to xUnit's InlineData attribute](https://stackoverflow.com/questions/35026735/in-f-how-do-you-pass-a-collection-to-xunits-inlinedata-attribute)
+- [Is using StringBuilder the right thing to do in F#](https://stackoverflow.com/questions/18595597/is-using-a-stringbuilder-a-right-thing-to-do-in-f)
