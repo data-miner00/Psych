@@ -2,8 +2,9 @@
 
 open System
 
-type User(firstName:string, lastName:string, age:int, money:float, location:string,
+type User(firstName:string, lastName:string, username:string, age:int, money:float, location:string,
           email:string, password:string, lastLogin: DateTime) =
+            member this.Username = username
             member this.FirstName = firstName
             member this.LastName = lastName
             member this.Age = age
