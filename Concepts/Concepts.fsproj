@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Format\Debug.fs" />
     <Compile Include="Syntax\Class.fs" />
     <Compile Include="Syntax\Struct.fs" />
     <Compile Include="Syntax\Exceptions.fs" />
