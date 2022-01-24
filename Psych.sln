@@ -15,7 +15,9 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Functions.UnitTests", "Func
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Application", "Application\Application.fsproj", "{BE698AFA-03FC-43B0-893B-7345289EF81F}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Playground", "Playground\Playground.fsproj", "{59B75186-1A7B-4164-97E3-DE702C2F1395}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Playground", "Playground\Playground.fsproj", "{59B75186-1A7B-4164-97E3-DE702C2F1395}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Data", "Data\Data.fsproj", "{720A3328-9668-4214-981F-6980265AFBBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{59B75186-1A7B-4164-97E3-DE702C2F1395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B75186-1A7B-4164-97E3-DE702C2F1395}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B75186-1A7B-4164-97E3-DE702C2F1395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720A3328-9668-4214-981F-6980265AFBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720A3328-9668-4214-981F-6980265AFBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720A3328-9668-4214-981F-6980265AFBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720A3328-9668-4214-981F-6980265AFBBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
