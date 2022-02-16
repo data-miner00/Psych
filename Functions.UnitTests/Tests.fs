@@ -2,6 +2,8 @@ namespace Psych.Functions.UnitTests
 
 module Tests =
 
+    open System
+    open System.Collections.Generic
     open FSharp.Reflection
     open Xunit
     open Psych.Functions.Common
@@ -45,9 +47,8 @@ module Tests =
 
     type TestData() =
         static member FactorialTestData =
-            [ (0, 1)
-              (1, 1)
-              (2, 3)
+            [ (1, 1)
+              (2, 2)
               (3, 6)
               (4, 24)
               (5, 120)
@@ -59,3 +60,11 @@ module Tests =
         
         let actual = Factorial.factorial'' n
         Assert.Equal(expected, actual)
+
+    [<Fact>]
+    let ``Factorial 2 throws`` () =
+   
+        let action = 
+            Action (fun () -> Factorial.factorial'' 0 |> ignore; ())
+
+        Assert.Throws<ArgumentException>(action)
