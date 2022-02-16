@@ -2,12 +2,16 @@
 
 module UserTests =
     
+    open System
     open Xunit
     open Psych.Core.Models
 
     [<Fact>]
     let ``Should have correct properties`` () =
-        let user = User("mum khong", "chong", 24, 54.01, "Melaka", "mumk0313@gmail.com", "123456")
+
+        let now = DateTime.Now
+
+        let user = User("mum khong", "chong", "mumk0313", 24, 54.01, "Melaka", "mumk0313@gmail.com", "123456", now)
 
         Assert.Equal(user.FirstName, "mum khong")
         Assert.Equal(user.LastName, "chong")
@@ -15,4 +19,5 @@ module UserTests =
         Assert.Equal(user.Money, 54.00, 1)
         Assert.NotEqual(user.Money, 54.00, 2)
         Assert.Equal(user.Email, "mumk0313@gmail.com")
+        Assert.Equal(user.LastLogin, now)
 
