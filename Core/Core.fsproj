@@ -8,7 +8,6 @@
     <Compile Include="Models\Transaction.fs" />
     <Compile Include="Models\Account.fs" />
     <Compile Include="Models\User.fs" />
-    <Compile Include="Library.fs" />
   </ItemGroup>
 
 </Project>
