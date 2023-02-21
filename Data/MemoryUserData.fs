@@ -12,9 +12,14 @@ module MemoryUserData =
         users.Add(user) |> ignore
         user
 
+    let getAllUser =
+        users
+
     let getUser (username: string) =
         try users.Find(fun x -> x.Username = username) |> Some
-        with :? ArgumentNullException -> None
+        with
+        | :? ArgumentNullException -> None
+        | :? NullReferenceException -> None
 
     let updateUser (user: User) =
         match getUser user.Username with

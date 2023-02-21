@@ -56,4 +56,3 @@ module Cli =
             printfn "%s" user.Email
             printfn "%d" user.Age
         | None -> printf "sadge thing happend"
-    
