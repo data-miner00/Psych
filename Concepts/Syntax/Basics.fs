@@ -42,8 +42,8 @@ module Basics =
             |> Seq.map (fun x -> x * 2)
 
         let refUses = ref 10
-        refUses := 50
-        printfn "%i" ! refUses
+        refUses := 50           // := is deprecated
+        printfn "%i" ! refUses  // ! is deprecated
 
         let rec last list =
             match list with
