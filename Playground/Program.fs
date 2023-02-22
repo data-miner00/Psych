@@ -23,4 +23,6 @@ module Program =
         printfn "%s" (Hash.GetHashString str)
         printfn "%s" (Hash.GetHashString' str)
 
+        Request.makeHttpRequest
+
         0 // return an integer exit code
