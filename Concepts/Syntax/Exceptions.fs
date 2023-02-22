@@ -16,4 +16,5 @@ module Exceptions =
             else
                 printf "Ok"
         with
-        | :? System.DivideByZeroException as ex -> printf "not ok"
+        | :? System.DivideByZeroException as ex -> printf "not ok"; ()
+        | ex -> printfn "%A" ex; ()

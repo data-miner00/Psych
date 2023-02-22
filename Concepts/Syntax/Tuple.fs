@@ -6,3 +6,7 @@ module Tuple =
         w + x + y + z
 
     printfn "%f" (funct (1.0, 3.0, 5.0, 3.0))
+
+    let tup = (1.0, 2.0)
+    let firstElement = fst tup
+    let secondElement = snd tup

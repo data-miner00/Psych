@@ -20,3 +20,5 @@ module Loop =
     // Preferred way if iterating
     [1..10] |> List.iter(printfn "%i")
     let sum = List.reduce (+)
+
+    [for i in [1;2] do i + 1] |> ignore

@@ -7,6 +7,8 @@ module Sequence =
     let seq2 = seq { 0..2..100 }
     let descendingSeq = seq { 50..1 }
     let seqList = Seq.toList seq1
+    let seq3 = Seq.init<int> 10 (fun i -> i)
+    let seq4 = Seq.initInfinite<int> (fun i -> i)
 
     let isPrime n = 
         let rec check i =

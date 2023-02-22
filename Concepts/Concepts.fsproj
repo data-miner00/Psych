@@ -6,6 +6,10 @@
 
   <ItemGroup>
     <Compile Include="Format\Debug.fs" />
+    <Compile Include="Syntax\Async.fs" />
+    <Compile Include="Syntax\Array.fs" />
+    <Compile Include="Syntax\Interface.fs" />
+    <Compile Include="Syntax\DiscriminatedUnion.fs" />
     <Compile Include="Syntax\Class.fs" />
     <Compile Include="Syntax\Struct.fs" />
     <Compile Include="Syntax\Exceptions.fs" />
@@ -26,6 +30,10 @@
     <Compile Include="IO\ReadFromFile.fs" />
     <Compile Include="Folds.fs" />
 	<Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="5.0.2" />
   </ItemGroup>
 
 </Project>
