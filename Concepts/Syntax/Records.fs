@@ -6,4 +6,3 @@ module Records =
         { Name: string; balance: float }
 
     let doug = { Name = "doug"; balance = 3.14 }
-

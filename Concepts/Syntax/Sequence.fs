@@ -1,5 +1,6 @@
 ﻿namespace Psych.Concepts.Syntax
 
+(* Sequence are like list but computed lazily *)
 module Sequence =
     
     let seq1 = seq { 1..100 }

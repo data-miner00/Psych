@@ -21,4 +21,3 @@ module Class =
 
         member this.Cool =
             printfn "this cooling down"
-

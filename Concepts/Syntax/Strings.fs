@@ -6,7 +6,7 @@ module Strings =
     
     let normalString = "normal"
 
-    let ignoreBackslash = @"\ \f\\\fdsf"
+    let ignoreBackslash = @"\ \f\\\fdsf" // verbatim string
     let ignoreQuoteNBackslash = """ \ "" """
 
     (* Length of string *)
@@ -17,7 +17,7 @@ module Strings =
     (* String slicing *)
 
     let somestr = "somestring"
-    let char': char = somestr.[1]
+    let char': char = somestr.[1] // accessing individual char with index
     let range: string = somestr.[1..4]
 
     (* Composition with string *)
@@ -29,7 +29,7 @@ module Strings =
     // Check if one character meets criteria
     let charExists = String.exists (fun char -> Char.IsUpper char)
     
-    // Check for all character meets criteria
+    // Check for all character meets criteria, also Char.IsDigit
     let all = String.forall (fun char -> Char.IsLetter char)
 
     (* String generator *)

@@ -19,3 +19,6 @@ module Formatting =
 
     // Padding left and right for 5 length each
     printfn "%-5s %5s" "a" "b"
+
+    // Escaping % character
+    printfn "Hello %%"

@@ -6,4 +6,3 @@ module Tuple =
         w + x + y + z
 
     printfn "%f" (funct (1.0, 3.0, 5.0, 3.0))
-

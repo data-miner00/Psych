@@ -9,6 +9,7 @@ module Options =
 
     if (divide 1 2).IsNone then
         printf "cant divide by 0"
+    elif (divide 1 2).IsSome then
+        printf "ok = %A" (divide 1 2).Value
     else
-        printf("ok")
-
+        printf "nothing"

@@ -19,3 +19,8 @@ module Conditionals =
         | number when number > 8 -> "eight"
         | number when number < 5 -> "five"
         | _ -> number.ToString()
+
+    (* Operators *)
+    let t = true || false
+    let t' = true && false
+    let t'' = not true

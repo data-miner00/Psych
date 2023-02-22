@@ -17,4 +17,3 @@ module Exceptions =
                 printf "Ok"
         with
         | :? System.DivideByZeroException as ex -> printf "not ok"
-

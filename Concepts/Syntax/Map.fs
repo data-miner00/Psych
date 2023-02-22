@@ -12,4 +12,3 @@ module Map =
     let containKey1 = myMap.ContainsKey "key1"
     let key1val = myMap.["key1"]
     let newMap = Map.remove "key1" myMap
-

@@ -13,6 +13,7 @@ module List =
 
     (* List methods *)
 
+    let length = list0.Length
     let isEmpty = list0.IsEmpty
     let index2 = list0.Item(2)
     let head = list0.Head
@@ -21,4 +22,3 @@ module List =
 
     let list6 = list3 |> List.filter(fun x -> x % 2 = 0)
     let sorted = List.sort list3
-
