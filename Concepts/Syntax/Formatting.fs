@@ -14,5 +14,8 @@ module Formatting =
     // Rouded floating point
     printfn "A rounded float %g" 1.234
 
-    // Padding with tabs
+    // Padding with parameterized length
     printfn "%*s" 10 "padding 10 from left"
+
+    // Padding left and right for 5 length each
+    printfn "%-5s %5s" "a" "b"

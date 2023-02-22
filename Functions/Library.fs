@@ -1,7 +1,7 @@
 ﻿namespace Psych.Functions
 
 /// <summary>
-/// 
+/// Just an ordinary library.
 /// </summary>
 module Common =
     
