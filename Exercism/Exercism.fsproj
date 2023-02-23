@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Pangram.fs" />
+    <Compile Include="ValentinesDay.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
