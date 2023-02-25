@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Compile Include="Format\Debug.fs" />
+    <Compile Include="Syntax\Match.fs" />
     <Compile Include="Syntax\Async.fs" />
     <Compile Include="Syntax\Array.fs" />
     <Compile Include="Syntax\Interface.fs" />
