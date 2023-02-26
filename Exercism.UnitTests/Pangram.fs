@@ -1,6 +1,6 @@
 namespace Psych.Exercism.UnitTests
 
-module Tests =
+module PangramTests =
 
     open Xunit
     open Psych.Exercism

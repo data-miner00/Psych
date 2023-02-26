@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="CarAssemble.fs" />
     <Compile Include="Pangram.fs" />
   </ItemGroup>
 
