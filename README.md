@@ -12,6 +12,10 @@ A repository for me to document F# and sample codes as a part of my learning.
 - [Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/fsharp/)
 - [F# Snippets](http://www.fssnip.net/)
 
+## Library
+
+- [FSharp.Data](https://fsprojects.github.io/FSharp.Data/)
+
 ## File IO
 
 - [Doing some IO in F#](https://dev.to/tunaxor/doing-some-io-in-f-4agg)
@@ -20,6 +24,7 @@ A repository for me to document F# and sample codes as a part of my learning.
 
 - [Match Expression](https://fsharpforfunandprofit.com/posts/match-expression/)
 - [Recursive Fibonacci with F#](https://pvlerick.github.io/2009/07/recursive-fibonacci-with-f)
+- [F# Interop with Javascript in Fable: The Complete Guide](https://medium.com/@zaid.naom/f-interop-with-javascript-in-fable-the-complete-guide-ccc5b896a59f)
 
 ## Insightful discussions
 
@@ -27,6 +32,7 @@ A repository for me to document F# and sample codes as a part of my learning.
 - [In F# how do you pass a collection to xUnit's InlineData attribute](https://stackoverflow.com/questions/35026735/in-f-how-do-you-pass-a-collection-to-xunits-inlinedata-attribute)
 - [Is using StringBuilder the right thing to do in F#](https://stackoverflow.com/questions/18595597/is-using-a-stringbuilder-a-right-thing-to-do-in-f)
 - [F# create random string and numbers](https://stackoverflow.com/questions/22340351/f-create-random-string-of-letters-and-numbers)
+- [F#, char seq -> strings](https://stackoverflow.com/questions/14667866/f-char-seq-strings)
 
 ## Video Tutorials
 
