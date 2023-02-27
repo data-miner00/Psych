@@ -1,6 +1,9 @@
 ﻿namespace Psych.Concepts.Syntax
 
 open System
+open System.IO
+open System.Text
+open Microsoft.FSharp.Core.Printf
 
 module Formatting =
     
@@ -22,3 +25,15 @@ module Formatting =
 
     // Escaping % character
     printfn "Hello %%"
+
+    // Different printer
+    printf "Goes to stdout"
+    sprintf "Returns a formatted string" |> ignore
+    eprintf "Prints to stderr"
+    fprintf TextWriter.Null "Output to text writer"
+    
+    let buffer = StringBuilder()
+    bprintf buffer $"Output to StringBuilder {1}"
+    buffer.ToString() |> ignore
+
+    kprintf (fun x -> x + ", done!") "printf but with additional finalizer function" |> ignore

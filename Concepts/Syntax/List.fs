@@ -11,6 +11,8 @@ module List =
     let list4 = [for a in 1..20 do if a % 2 = 0 then yield a]
     let list5 = [for a in 1..3 do yield! [a..a+2]]
     let list5' = List.init<int> 10 (fun i -> i * 2)
+    let list5'' = list5 @ list5' // Concatenate
+    let list0' = 99::list0 // Prepend single element
 
     (* List methods *)
 
@@ -19,7 +21,6 @@ module List =
     let index2 = list0.Item(2)
     let head = list0.Head
     let tail = list0.Tail
-
 
     let list6 = list3 |> List.filter(fun x -> x % 2 = 0)
     let sorted = List.sort list3

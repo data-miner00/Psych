@@ -1,6 +1,7 @@
 ﻿namespace Psych.Concepts.Syntax
 
 open System
+open System.Text
 
 module Strings =
     
@@ -37,3 +38,8 @@ module Strings =
     /// Generate from 0 to 14 as string
     let init = String.init 14 (fun i -> i.ToString())
 
+    (* String builder *)
+    let builder = StringBuilder()
+    let s = builder.Append "abc" 
+            |> fun builder -> builder.Append "123"
+            |> fun builder -> builder.ToString()
