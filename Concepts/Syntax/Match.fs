@@ -31,3 +31,8 @@ module Match =
         match tryFirst' items with
         | Summat x -> x
         | Nowt -> df
+
+    (* Shortcut for matching: Function matching pattern *)
+    let matchSomething = function
+        | 0 | 1 | 2 -> "0, 1 or 2"
+        | _ -> "otherwise"

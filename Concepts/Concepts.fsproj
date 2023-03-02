@@ -5,7 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="ListComprehension.fs" />
     <Compile Include="Format\Debug.fs" />
+    <Compile Include="Syntax\Operator.fs" />
+    <Compile Include="Syntax\Use.fs" />
+    <Compile Include="Syntax\Scoping.fs" />
     <Compile Include="Syntax\Function.fs" />
     <Compile Include="Syntax\Match.fs" />
     <Compile Include="Syntax\Async.fs" />

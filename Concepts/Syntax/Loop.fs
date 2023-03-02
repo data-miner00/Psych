@@ -20,5 +20,7 @@ module Loop =
     // Preferred way if iterating
     [1..10] |> List.iter(printfn "%i")
     let sum = List.reduce (+)
+    [1..10] |> List.sum |> printfn "%i"
+    [1..10] |> List.fold (+) 0 |> printfn "%i"
 
     [for i in [1;2] do i + 1] |> ignore

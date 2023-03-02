@@ -6,3 +6,5 @@ module Generics =
         x + y
 
     let answer = add<float> 1.0 2.0
+
+    let swapTuple (a: 'a, b: 'b) = (b, a)

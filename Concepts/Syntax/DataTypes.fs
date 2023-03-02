@@ -1,7 +1,8 @@
 ﻿namespace Psych.Concepts.Syntax
 
 module DataTypes =
-    
+    // Product Type = Object, Sum Type = Primitive
+
     (* Integral data types *)
 
     let sbyte': sbyte = 1y
