@@ -39,3 +39,8 @@ module BobTests =
     [<MemberData("BobTestData", MemberType=typeof<TestData>)>]
     let ``Bob should utter the correct response`` (input: string) (expected: string) =
         input |> Bob.response |> fun actual -> Assert.Equal(expected, actual)
+
+    [<Theory>]
+    [<MemberData("BobTestData", MemberType=typeof<TestData>)>]
+    let ``Bob should utter the correct response 2`` (input: string) (expected: string) =
+        input |> Bob.response' |> fun actual -> Assert.Equal(expected, actual)
