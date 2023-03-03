@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Structure\Module.fs" />
     <Compile Include="ListComprehension.fs" />
     <Compile Include="Format\Debug.fs" />
     <Compile Include="Syntax\Operator.fs" />

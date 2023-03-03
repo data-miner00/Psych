@@ -31,3 +31,14 @@ module Exceptions =
             | Error1(str, x) -> printfn "%s: %i" str x
             | Error2(str, x, y) -> printfn "%s: %i %i" str x y
             | _ -> ()
+
+    let func1tryfinally x y =
+        try
+            try
+                if x = y then raise (Error1($"Value are equal", x))
+                else raise (Error2($"Values are not equal", x, y))
+            with
+                | Error1(str, x) -> printfn "%s: %i" str x
+                | Error2(str, x, y) -> printfn "%s: %i %i" str x y
+        finally
+            printfn "All done"
