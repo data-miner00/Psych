@@ -121,7 +121,8 @@ module DiscriminatedUnion =
                 |> Result.bind validateName
                 |> Result.bind validateEmail
 
-        let (>>=) result func =Result.bind func result
+        let (>>=) result func = Result.bind func result
+        let (>>>) result func = Result.map func result
 
         let validateRequest' request =
             (Ok request)

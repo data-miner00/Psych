@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Collections\Set.fs" />
+    <Compile Include="Collections\Map.fs" />
+    <Compile Include="Collections\Dictionary.fs" />
+    <Compile Include="Collections\Array.fs" />
+    <Compile Include="Collections\Sequence.fs" />
     <Compile Include="Collections\List.fs" />
     <Compile Include="Measure.fs" />
     <Compile Include="Structure\Module.fs" />
