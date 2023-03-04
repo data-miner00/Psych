@@ -20,3 +20,11 @@ module Records =
             this.Name
         member _.GetConstant =
             "const"
+        static member New n b =
+            { Name = n; Balance = b }
+
+    let deposit customer amount =
+        { customer with Balance = customer.Balance + amount }
+
+    let withdraw customer amount =
+        { customer with Balance = customer.Balance - amount }
