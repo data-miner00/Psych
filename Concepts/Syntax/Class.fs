@@ -10,13 +10,18 @@ module Class =
         new (name, location, color) =
             { Name = name; Location = location; Color = color }
 
+        new (name, location) as this =
+            { Name = name; Location = location; Color = "blue" }
+            then
+                printfn "This statement executes after initialization: %s" this.Color
+
         member this.Run =
             printfn "this %s" this.Name
     end
 
     (* Inheritance *)
 
-    type CoolHouse(name, location, color) = 
+    type CoolHouse(name, location, color) = // This is called as implicit constructor
         inherit House(name, location, color)
 
         member this.Cool =
@@ -45,3 +50,17 @@ module Class =
         member this.IncrementStarsBy n = this.Stars <- incrementStarsBy this.Stars n
 
     Repo.SayHi |> ignore
+
+    (* With Getter and Setter *)
+    type vec2(x: float, y: float) =
+        member val X = x with get, set
+        member val Y = y with get, set
+
+    let v = new vec2(1.0, 2.0)
+
+    // Object Expression
+    let oe = { new System.Object() with member x.ToString() = "F#" }
+
+    // Factory Object Expression with Interface
+    let makeAddable =
+        { new Interface.IAddableFSharp with member this.Add x y = x + y }

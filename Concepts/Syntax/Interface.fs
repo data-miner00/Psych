@@ -7,6 +7,11 @@ module Interface =
     type IHtmlParser =
         abstract member ParseHtml : string -> HtmlDocument
 
+    // Same as above
+    type IHtmlParser' = {
+        ParseHtml: string -> HtmlDocument
+    }
+
     type WebParser() =
         interface IHtmlParser with
             member this.ParseHtml url = HtmlDocument.Load(url)
@@ -29,3 +34,11 @@ module Interface =
 
     parseHtml classWebParser "https://google.com" |> ignore
     parseHtml classFileParser "non exist path" |> ignore
+
+    type IAddableFSharp =
+        abstract Add: x: int -> y: int -> int
+    // obj.Add 1 2
+
+    type IAddableDotNet =
+        abstract Add: x: int * y: int -> int
+    // obj.Add (1, 2)
