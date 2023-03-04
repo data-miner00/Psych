@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Domain.fs" />
     <Compile Include="Models\Transaction.fs" />
     <Compile Include="Models\Account.fs" />
     <Compile Include="Models\User.fs" />
