@@ -34,6 +34,7 @@
     <Compile Include="Syntax\DataTypes.fs" />
     <Compile Include="Syntax\Formatting.fs" />
     <Compile Include="Syntax\Basics.fs" />
+    <Compile Include="IO\Json.fs" />
     <Compile Include="IO\ReadFromFile.fs" />
     <Compile Include="Folds.fs" />
 	<Compile Include="Program.fs" />
@@ -41,6 +42,7 @@
 
   <ItemGroup>
     <PackageReference Include="FSharp.Data" Version="5.0.2" />
+    <PackageReference Include="FSharp.SystemTextJson" Version="1.1.23" />
   </ItemGroup>
 
 </Project>
