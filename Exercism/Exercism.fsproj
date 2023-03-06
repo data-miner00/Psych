@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="KindergartenGarden.fs" />
     <Compile Include="Bob.fs" />
     <Compile Include="CarAssemble.fs" />
     <Compile Include="Pangram.fs" />
