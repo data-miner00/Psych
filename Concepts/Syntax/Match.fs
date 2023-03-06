@@ -36,3 +36,9 @@ module Match =
     let matchSomething = function
         | 0 | 1 | 2 -> "0, 1 or 2"
         | _ -> "otherwise"
+
+    let matchSomething' number =
+        (function
+        | 0 | 1 | 2 -> "0, 1 or 2"
+        | _ -> "otherwise") number
+    
