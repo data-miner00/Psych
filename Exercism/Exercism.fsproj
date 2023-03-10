@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Isogram.fs" />
     <Compile Include="LeapYear.fs" />
     <Compile Include="Raindrops.fs" />
     <Compile Include="Allergies.fs" />
