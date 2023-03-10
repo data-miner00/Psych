@@ -15,6 +15,7 @@
     <Compile Include="Structure\Module.fs" />
     <Compile Include="ListComprehension.fs" />
     <Compile Include="Format\Debug.fs" />
+    <Compile Include="Syntax\ActivePattern.fs" />
     <Compile Include="Syntax\Operator.fs" />
     <Compile Include="Syntax\Use.fs" />
     <Compile Include="Syntax\Scoping.fs" />
