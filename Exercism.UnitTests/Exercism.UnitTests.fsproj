@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Clock.fs" />
     <Compile Include="Grains.fs" />
     <Compile Include="Isogram.fs" />
     <Compile Include="LeapYear.fs" />
