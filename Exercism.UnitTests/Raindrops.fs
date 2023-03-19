@@ -3,7 +3,7 @@
 open Psych.Exercism
 open Xunit
 
-module RaindropsTest =
+module RaindropsTests =
     [<Theory>]
     [<InlineData(1, "1")>]
     [<InlineData(3, "Pling")>]

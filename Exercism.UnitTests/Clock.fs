@@ -1,6 +1,6 @@
 ﻿namespace Psych.Exercism.UnitTests
 
-module Clock =
+module ClockTests =
     open Xunit
     open Psych.Exercism.Clock
 

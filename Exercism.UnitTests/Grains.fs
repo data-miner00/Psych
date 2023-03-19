@@ -3,7 +3,7 @@
 open Xunit
 open Psych.Exercism.Grains
 
-module Grains =
+module GrainsTests =
     let should (f: 'a -> ^b) expected actual =
         Assert.StrictEqual(expected, actual)
 
