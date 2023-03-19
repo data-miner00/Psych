@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Monads.fs" />
+    <Compile Include="Applicative.fs" />
+    <Compile Include="Functors.fs" />
     <Compile Include="Collections\Set.fs" />
     <Compile Include="Collections\Map.fs" />
     <Compile Include="Collections\Dictionary.fs" />
