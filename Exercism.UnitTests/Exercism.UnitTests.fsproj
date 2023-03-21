@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Hamming.fs" />
+    <Compile Include="FizzBuzz.fs" />
     <Compile Include="Allergies.fs" />
     <Compile Include="Clock.fs" />
     <Compile Include="Grains.fs" />
