@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="PigLatin.fs" />
     <Compile Include="Hamming.fs" />
     <Compile Include="FizzBuzz.fs" />
     <Compile Include="Allergies.fs" />
