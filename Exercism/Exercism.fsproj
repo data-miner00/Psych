@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Easy\SieveOfEratosthenes.fs" />
     <Compile Include="Easy\Hamming.fs" />
     <Compile Include="Easy\FizzBuzz.fs" />
     <Compile Include="Easy\Clock.fs" />
