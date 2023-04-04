@@ -40,6 +40,8 @@ A repository for me to document F# and sample codes as a part of my learning.
 - [F# 6 Fundamentals](https://app.pluralsight.com/library/courses/f-sharp-6-fundamentals/table-of-contents)
 - [F# Fundamentals Tutorial | Learn Functional Programming | Step-by-Step Guide](https://www.youtube.com/watch?v=SvOInBxPL30)
 - [F# For Beginners](https://www.youtube.com/watch?v=yGzu0iDuMNQ&list=PLdo4fOcmZ0oUFghYOp89baYFBTGxUkC7Z)
+- [ASP.NET Community Standup - Building ASP.NET Core apps in F# (With Giraffe)](https://www.youtube.com/watch?v=JuIq7mU50jA)
+- [Functors, Applicatives and Monads Tutorial | Simply Explained | F# Functional Programming](https://www.youtube.com/watch?v=94bPH1u6kYo)
 
 ## Books
 
@@ -48,3 +50,4 @@ A repository for me to document F# and sample codes as a part of my learning.
 ## Exercises
 
 - [Exercism F# Tracks](https://exercism.org/tracks/fsharp)
+- [Take your first steps with F#](https://learn.microsoft.com/en-us/training/paths/fsharp-first-steps/)
