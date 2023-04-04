@@ -1,14 +1,10 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 open Xunit
-open Psych.Exercism.Isogram
+open Psych.Exercism.Easy.Isogram
+open FsUnit.Xunit
 
 module IsogramTests =
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
-
     [<Fact>]
     let ``Empty string`` () =
         isIsogram "" |> should equal true

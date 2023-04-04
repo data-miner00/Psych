@@ -1,6 +1,6 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Medium
 
-open Psych.Exercism.PigLatin
+open Psych.Exercism.Medium.PigLatin
 open Xunit
 open FsUnit.Xunit
 

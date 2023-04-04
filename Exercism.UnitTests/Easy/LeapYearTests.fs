@@ -1,14 +1,10 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
-open Psych.Exercism.LeapYear
+open Psych.Exercism.Easy.LeapYear
 open Xunit
+open FsUnit.Xunit
 
 module LeapYearTests =
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
-
     [<Fact>]
     let ``Year not divisible by 4 in common year`` () =
         leapYear 2015 |> should equal false

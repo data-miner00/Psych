@@ -1,4 +1,4 @@
-﻿namespace Psych.Exercism
+﻿namespace Psych.Exercism.Easy
 
 open System
 

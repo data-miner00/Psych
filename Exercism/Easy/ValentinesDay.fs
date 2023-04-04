@@ -1,4 +1,4 @@
-﻿namespace Psych.Exercism
+﻿namespace Psych.Exercism.Easy
 
 module ValentinesDay =
     type Approval =
@@ -6,19 +6,16 @@ module ValentinesDay =
         | No
         | Maybe
 
-    // TODO: please define the 'Cuisine' discriminated union type
     type Cuisine =
         | Korean
         | Turkish
 
-    // TODO: please define the 'Genre' discriminated union type
     type Genre =
         | Crime
         | Horror
         | Romance
         | Thriller
 
-    // TODO: please define the 'Activity' discriminated union type
     type Activity =
         | BoardGame
         | Chill

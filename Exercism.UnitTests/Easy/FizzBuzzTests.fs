@@ -1,7 +1,7 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 open Xunit
-open Psych.Exercism
+open Psych.Exercism.Easy
 open Microsoft.FSharp.Reflection
 
 module FizzBuzzTests =

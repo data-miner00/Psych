@@ -8,19 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="PigLatin.fs" />
-    <Compile Include="Hamming.fs" />
-    <Compile Include="FizzBuzz.fs" />
-    <Compile Include="Allergies.fs" />
-    <Compile Include="Clock.fs" />
-    <Compile Include="Grains.fs" />
-    <Compile Include="Isogram.fs" />
-    <Compile Include="LeapYear.fs" />
-    <Compile Include="Raindrops.fs" />
-    <Compile Include="KindergartenGarden.fs" />
-    <Compile Include="Bob.fs" />
-    <Compile Include="CarAssemble.fs" />
-    <Compile Include="Pangram.fs" />
+    <Compile Include="Easy\HammingTests.fs" />
+    <Compile Include="Easy\FizzBuzzTests.fs" />
+    <Compile Include="Easy\ClockTests.fs" />
+    <Compile Include="Easy\GrainsTests.fs" />
+    <Compile Include="Easy\IsogramTests.fs" />
+    <Compile Include="Easy\LeapYearTests.fs" />
+    <Compile Include="Easy\RaindropsTests.fs" />
+    <Compile Include="Easy\KindergartenGardenTests.fs" />
+    <Compile Include="Easy\BobTests.fs" />
+    <Compile Include="Easy\CarAssembleTests.fs" />
+    <Compile Include="Easy\PangramTests.fs" />
+    <Compile Include="Medium\PigLatinTests.fs" />
+    <Compile Include="Medium\AllergiesTests.fs" />
   </ItemGroup>
 
   <ItemGroup>

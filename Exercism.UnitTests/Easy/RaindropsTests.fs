@@ -1,6 +1,6 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
-open Psych.Exercism
+open Psych.Exercism.Easy
 open Xunit
 
 module RaindropsTests =

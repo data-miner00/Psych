@@ -6,20 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Hamming.fs" />
-    <Compile Include="FizzBuzz.fs" />
-	<Compile Include="PigLatin.fs" />
-    <Compile Include="Clock.fs" />
-    <Compile Include="Grains.fs" />
-    <Compile Include="Isogram.fs" />
-    <Compile Include="LeapYear.fs" />
-    <Compile Include="Raindrops.fs" />
-    <Compile Include="Allergies.fs" />
-    <Compile Include="KindergartenGarden.fs" />
-    <Compile Include="Bob.fs" />
-    <Compile Include="CarAssemble.fs" />
-    <Compile Include="Pangram.fs" />
-    <Compile Include="ValentinesDay.fs" />
+    <Compile Include="Easy\Hamming.fs" />
+    <Compile Include="Easy\FizzBuzz.fs" />
+    <Compile Include="Easy\Clock.fs" />
+    <Compile Include="Easy\Grains.fs" />
+    <Compile Include="Easy\Isogram.fs" />
+    <Compile Include="Easy\LeapYear.fs" />
+    <Compile Include="Easy\Raindrops.fs" />
+    <Compile Include="Easy\KindergartenGarden.fs" />
+    <Compile Include="Easy\Bob.fs" />
+    <Compile Include="Easy\CarAssemble.fs" />
+    <Compile Include="Easy\Pangram.fs" />
+    <Compile Include="Easy\ValentinesDay.fs" />
+    <Compile Include="Medium\Allergies.fs" />
+    <Compile Include="Medium\PigLatin.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

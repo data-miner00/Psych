@@ -1,13 +1,9 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 module ClockTests =
     open Xunit
-    open Psych.Exercism.Clock
-
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
+    open Psych.Exercism.Easy.Clock
+    open FsUnit.Xunit
 
     [<Fact>]
     let ``On the hour`` () =

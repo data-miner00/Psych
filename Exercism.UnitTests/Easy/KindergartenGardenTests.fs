@@ -1,8 +1,9 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
-open Psych.Exercism
+open Psych.Exercism.Easy
 open Xunit
 open Microsoft.FSharp.Reflection
+open FsUnit.Xunit
 
 module KindergartenGardenTests =
     open KindergartenGarden
@@ -108,12 +109,6 @@ module KindergartenGardenTests =
     //    (garden, children)
     //    ||> KindergartenGarden.plants
     //    |> fun x -> Assert.StrictEqual(expected, x)
-
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
-        
 
     [<Fact>]
     let ``Partial garden - garden with single student`` () =

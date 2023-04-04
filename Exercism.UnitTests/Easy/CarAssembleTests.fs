@@ -1,8 +1,8 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 module CarAssembleTests =
     open Xunit
-    open Psych.Exercism
+    open Psych.Exercism.Easy
 
     [<Theory>]
     [<InlineData (10, 0.77, 2)>]

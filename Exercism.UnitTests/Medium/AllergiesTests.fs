@@ -1,14 +1,10 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Medium
 
 open Xunit
-open Psych.Exercism.Allergies
+open Psych.Exercism.Medium.Allergies
+open FsUnit.Xunit
 
 module AllergiesTests =
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
-
     [<Fact>]
     let ``Testing for eggs allergy - not allergic to anything`` () =
         allergicTo 0 Allergen.Eggs |> should equal false
@@ -171,7 +167,7 @@ module AllergiesTests =
 
     [<Fact>]
     let ``List - no allergies`` () =
-        list 0 |> should equal List.empty
+        list 0 |> should be Empty
 
     [<Fact>]
     let ``List - just eggs`` () =

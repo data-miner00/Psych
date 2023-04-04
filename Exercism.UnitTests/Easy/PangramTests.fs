@@ -1,9 +1,9 @@
-namespace Psych.Exercism.UnitTests
+namespace Psych.Exercism.UnitTests.Easy
 
 module PangramTests =
 
     open Xunit
-    open Psych.Exercism
+    open Psych.Exercism.Easy
 
     [<Theory>]
     [<InlineData "The quick brown fox jumps over the lazy dog.">]

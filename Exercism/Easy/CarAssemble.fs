@@ -1,4 +1,4 @@
-﻿namespace Psych.Exercism
+﻿namespace Psych.Exercism.Easy
 
 module CarAssemble =
     let successRate (speed: int): float =

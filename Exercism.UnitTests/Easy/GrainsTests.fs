@@ -1,14 +1,10 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 open Xunit
-open Psych.Exercism.Grains
+open Psych.Exercism.Easy.Grains
+open FsUnit.Xunit
 
 module GrainsTests =
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
-
     [<Fact>]
     let ``Grains on square 1`` () =
         let expected: Result<uint64,string> = Ok 1UL

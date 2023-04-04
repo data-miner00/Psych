@@ -1,13 +1,9 @@
-﻿namespace Psych.Exercism.UnitTests
+﻿namespace Psych.Exercism.UnitTests.Easy
 
 module HammingTests =
     open Xunit
-    open Psych.Exercism.Hamming
-
-    let should (f: 'a -> ^b) expected actual =
-        Assert.StrictEqual(expected, actual)
-
-    let equal s = s
+    open Psych.Exercism.Easy.Hamming
+    open FsUnit.Xunit
 
     [<Fact>]
     let ``Empty strands`` () =
