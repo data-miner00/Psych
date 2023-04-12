@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Regex.fs" />
     <Compile Include="ActivePattern\Prefix.fs" />
     <Compile Include="Monads.fs" />
     <Compile Include="Applicative.fs" />
