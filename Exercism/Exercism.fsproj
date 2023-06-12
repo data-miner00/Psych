@@ -20,6 +20,7 @@
     <Compile Include="Easy\CarAssemble.fs" />
     <Compile Include="Easy\Pangram.fs" />
     <Compile Include="Easy\ValentinesDay.fs" />
+    <Compile Include="Medium\PhoneNumber.fs" />
     <Compile Include="Medium\Allergies.fs" />
     <Compile Include="Medium\PigLatin.fs" />
     <Compile Include="Program.fs" />

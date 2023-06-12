@@ -20,6 +20,7 @@
     <Compile Include="Easy\BobTests.fs" />
     <Compile Include="Easy\CarAssembleTests.fs" />
     <Compile Include="Easy\PangramTests.fs" />
+    <Compile Include="Medium\PhoneNumberTests.fs" />
     <Compile Include="Medium\PigLatinTests.fs" />
     <Compile Include="Medium\AllergiesTests.fs" />
   </ItemGroup>
