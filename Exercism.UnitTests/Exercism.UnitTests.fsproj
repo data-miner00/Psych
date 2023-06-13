@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Easy\ReverseStringTests.fs" />
     <Compile Include="Easy\SieveOfEratosthenesTests.fs" />
     <Compile Include="Easy\HammingTests.fs" />
     <Compile Include="Easy\FizzBuzzTests.fs" />
