@@ -7,6 +7,8 @@
 
   <ItemGroup>
     <Compile Include="Community\Medium\PigLatin.fs" />
+    <Compile Include="Easy\ScrabbleScore.fs" />
+    <Compile Include="Easy\RnaTranscription.fs" />
     <Compile Include="Easy\PerfectNumber.fs" />
     <Compile Include="Easy\ProteinTranslation.fs" />
     <Compile Include="Easy\CollatzConjecture.fs" />

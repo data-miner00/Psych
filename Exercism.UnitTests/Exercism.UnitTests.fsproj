@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Easy\ScrabbleScoreTests.fs" />
+    <Compile Include="Easy\RnaTranscriptionTests.fs" />
     <Compile Include="Easy\PerfectNumberTests.fs" />
     <Compile Include="Easy\ProteinTranslationTests.fs" />
     <Compile Include="Easy\CollatzConjectureTests.fs" />
