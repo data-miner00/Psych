@@ -80,3 +80,13 @@ module Common =
 
     let termOfGeometricProgression n a r =
         a * r ** (n - 1.0)
+
+    module HOF =
+        let filter f list =
+            let rec loop f accumulator list =
+                match list with
+                | [] -> accumulator
+                | head::tail ->
+                    if f head then loop f (head :: accumulator) tail
+                              else loop f accumulator tail
+            loop f [] list

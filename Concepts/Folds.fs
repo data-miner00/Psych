@@ -30,3 +30,29 @@ module Folds =
 
     let max x y =
         if x > y then x else y
+
+    module StateFolder =
+        type NotificationState =
+        | Accepted
+        | Snoozed
+
+        type Reminder = {
+            Accepted: int
+            Snoozed: int
+        }
+
+        let list = [Accepted; Snoozed; Snoozed]
+
+        let initialState = {
+            Accepted = 0
+            Snoozed = 0
+        }
+
+        let folder state current =
+            match current with
+            | Accepted -> { state with Accepted = state.Accepted + 1 }
+            | Snoozed -> { state with Snoozed = state.Snoozed + 1 }
+
+            
+        List.fold folder initialState list |> printfn "%A"
+

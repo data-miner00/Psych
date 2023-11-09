@@ -9,6 +9,16 @@ module Async =
             return html
         }
 
+    let downloadAndUpload (source: string) (destination: string) =
+        let download file : Async<string> = failwith "not impl"
+        let upload file url : Async<unit> = failwith "not impl"
+
+        async {
+            let! contents = download "text.txt"
+            do! upload "text2.txt" "text.txt"
+            return "Ok"
+        }
+
     "https://google.com"
     |> getHtml // Async<HtmlDocument>
     |> Async.RunSynchronously // HtmlDocument

@@ -9,4 +9,7 @@ module Struct =
             { Length = length; Width = width}
     end
 
+    [<Struct>] // stack allocation
+    type Rectangle' = { Length: float; Width: float }
+
     let rect = new Rectangle(1.0, 3.0)
