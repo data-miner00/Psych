@@ -1,4 +1,4 @@
-﻿namespace Web.MVC.Controllers
+﻿namespace Psych.Web.MVC.Controllers
 
 open System
 open System.Collections.Generic
@@ -9,7 +9,7 @@ open System.Diagnostics
 open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Logging
 
-open Web.MVC.Models
+open Psych.Web.MVC.Models
 
 type HomeController (logger : ILogger<HomeController>) =
     inherit Controller()

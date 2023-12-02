@@ -1,4 +1,4 @@
-namespace Web.MVC
+namespace Psych.Web.MVC
 
 #nowarn "20"
 

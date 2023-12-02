@@ -11,7 +11,7 @@ module CarAssembleTests =
     [<InlineData (5, 0.9, 2)>]
     [<InlineData (4, 1.0, 2)>]
     [<InlineData (1, 1.0, 2)>]
-    let ``Should calculate the correct success rate of car assembly`` input expected tolerance =
+    let ``Should calculate the correct success rate of car assembly`` (input: int) (expected: float) (tolerance: int) =
         input |> CarAssemble.successRate |> fun x -> Assert.Equal(expected, x, tolerance)
 
     [<Theory>]
@@ -21,7 +21,7 @@ module CarAssembleTests =
     [<InlineData (7, 1392.3, 2)>]
     [<InlineData (9, 1591.2, 2)>]
     [<InlineData (10, 1701.7, 2)>]
-    let ``Should calculate the correct production rate per hour`` input expected tolerance =
+    let ``Should calculate the correct production rate per hour`` (input: int) (expected: float) (tolerance: int) =
         input |> CarAssemble.productionRatePerHour |> fun x -> Assert.Equal(expected, x, tolerance)
 
     [<Theory>]

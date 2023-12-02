@@ -1,4 +1,4 @@
-namespace Web.MVC.Models
+namespace Psych.Web.MVC.Models
 
 open System
 
