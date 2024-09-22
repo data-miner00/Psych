@@ -27,6 +27,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Exercism.UnitTests", "Exerc
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Web", "Web\Web.fsproj", "{B7C65835-DE74-448C-8BEF-9A56E72E98C4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0A5C1747-93F1-49D0-BC64-0B648A4AD5D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D960BD0-6E73-4B5F-ACDD-DF17FBF19152} = {0A5C1747-93F1-49D0-BC64-0B648A4AD5D8}
+		{FE06731F-1B66-47F0-8072-F3FC8FC2C8CA} = {0A5C1747-93F1-49D0-BC64-0B648A4AD5D8}
+		{E030E9BE-39A3-4E41-BFFC-A13CFD321294} = {0A5C1747-93F1-49D0-BC64-0B648A4AD5D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FCAFDD4-BAE8-40C4-BADC-65485F4F8B00}
